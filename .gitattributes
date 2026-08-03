@@ -1,0 +1,11 @@
+* text=auto
+
+*.c text eol=lf
+*.h text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+Makefile text eol=lf
+*.sh text eol=lf
+*.ps1 text eol=crlf
+*.tsv text eol=lf
