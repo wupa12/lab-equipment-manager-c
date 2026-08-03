@@ -11,7 +11,7 @@ jobs:
       matrix:
         compiler: [gcc, clang]
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - name: Build application
         run: CC=${{ matrix.compiler }} sh scripts/build.sh
       - name: Run tests
